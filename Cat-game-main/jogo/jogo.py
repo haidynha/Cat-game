@@ -232,7 +232,7 @@ while True:
         if velocidade_jogo >= 20:
             velocidade_jogo += 0
         else:
-            velocidade_jogo += 10
+            velocidade_jogo += 1
         
     tela.blit(texto_pontos, (520, 30))
 
